@@ -117,7 +117,7 @@ The commitment transaction will then become:
       "value": 0.00000330,
       "output_type": "remote_anchor",
       "scriptPubKey": {
-          "internal_pubkey": "<remote_pubkey>",
+          "internal_pubkey": "<remote_delayedpubkey>",
           "tapleaf": "
             # after a relative timelock of 16 blocks, anyone can claim this tiny amount
             # once the to_remote output has been spent, revealing the remote_pubkey
